@@ -16,6 +16,8 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 # Umfrage
 
+<iframe src="https://answergarden.ch/3348444" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
 # Einleitung OER
 
 ## OER Vision
