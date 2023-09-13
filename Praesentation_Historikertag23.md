@@ -1,6 +1,6 @@
 <!--
 
-author:   Richard Diebel, Jana Fehr, Klaas Krüger
+author:   Richard Diebel, Jana Fehr
 
 email:    diebel@ub.uni-kiel.de
 
@@ -14,19 +14,194 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 -->
 
-# Einführung
+# Umfrage
 
-<div style="text-align: justify">
-Dieser Selbstlernkurs führt in die Spezifika digitaler Editionen und deren Erstellung ein. Er setzt grundlegende Kenntnisse der germanistischen Textkritik voraus.</div>
+# Einleitung OER
 
-| Parameter          | Kursinformationen                                                     |
-| ------------------ | --------------------------------------------------------------------- |
-| **Veranstaltung:** | `Modul digitale Editionen`                                            |
-| **Semester**       | `Sommersemester 2023`                                                  |
-| **Universität:**   | `Christian-Albrechts-Universität zu Kiel`                             |
-| **Inhalte:**       | `Einführung in digitale Editionen in der Älteren deutschen Literatur` |
-| **Autoren**        | @author                                                               |
-|                    |                                                                       |
+## OER Vision
+
+> {0-1}{Lehrende möchten motivierende, interaktive Lehrmaterialien realisieren.}
+> {1-2}{Lehrende möchten motivierende, interaktive Lehrmaterialien mit einem überschaubaren Aufwand realisieren.}
+> {2-3}{Lehrende möchten maximal motivierende, interaktive Lehrmaterialien mit einem überschaubaren Aufwand realisieren, die optimal auf die eigenen didaktischen Ziele abgestimmt sind.}
+
+{{3}}
+********************************************************************************
+
+> Das kann er/sie natürlich alleine realisieren, aber ...
+
+---------------------
+
+**1. Muss er/sie sich über alle Inhalte selbst Gedanken machen**
+
+**2. Muss er/sie sich erheblichen technischen Herausforderungen stellen**
+
+---------------------
+
+********************************************************************************
+
+### Ausgangspunkt
+
+>  **Open Courseware / Open Educational Resources** ... teaching, learning and
+> research materials in any medium, digital or otherwise,that reside in the
+> **public domain** or have been released under an open license that permits
+> no-cost access, use, **adaptation** and **redistribution** by others with no or 4
+> limited restrictions. Open licensing is built within the existing framework of
+> intellectual property rights as defined by relevant international conventions
+> and respects the authorship of the work
+>
+> -- UNESCO 2002 Forum on the Impact of Open Courseware for Higher Education in Developing Countries [(Link)](https://unesdoc.unesco.org/ark:/48223/pf0000128515)
+
+           {{0-1}}
+********************************************************************************
+
+| Anforderung                  | Bedeutung                                  |
+| ---------------------------- | ------------------------------------------ |
+| `verwahren/vervielfältigen ` | Download, Speicherung und Vervielfältigung |
+| `verwenden`                  | Nutzung im Lernkontext                     |
+| `verarbeiten`                | Umgestaltung und Adaption                  |
+| `vermischen`                 | Kombination und Extraktion                 |
+| `verbreiten`                 | (digitale) Publikation                     |
+
+
+*_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
+
+> _OER können der Auslöser für Innovation und neue Lenrformen des 21. Jahrhunderts sein._
+>
+> -- _Handreichung OER - Der Einstieg in den Umgang mit Open Educational Ressources_, Bericht des Projektes OERsax, 2018
+
+********************************************************************************
+
+
+### Ideales OER Material - ein Textdokument
+
+<!--
+style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;"
+-->
+```ascii
+
+Kurs.txt         Version 1.0          Kurs.txt          Version 1.1
++--------------------------+          +---------------------------+
+| Kurs  Deutsche Literatur |          | Kurs  Deutsche Literatur  |
+| Autor Peter Muster       | "Fehler" | Autoren Peter Muster      |
+|                          |------>   |         Angelika Maier    |----->
+|~~~~~~~~~~~~~~~~~~~~~~~~~~|          |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Ab 1756 bereiste Goethe  |---.      | Ab 1786 bereiste Goethe   |--.
+| Italien ...              |   |      | Italien ...               |  |
+                               |                                     |    Course.txt       Version 1.1.2
+                               |                                     |    +----------------------------+
+                               |                                     |    | Kurs  German Literature    |
+                               |                                     |    | Autoren Peter Muster       |
+                               |                                     .--> |         Angelika Maier     |
+                               |                                          |         Steve Gray         |
+                               |                                          |~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+                               |                                          | In 1786 Goethe traveled to |
+                               |                                          | Italy ...                  |
+                               |      Kurs.txt         Version 1.0
+                               |      +---------------------------+
+                               |      | Kurs  Goethes Welt        |
+                               |      | Autoren Peter Muster      |
+                               .-->   |         Angelika Maier    |----->
+                                      |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+                                      | Während der italienischen |
+                                      | Reise ...                 |
+```
+*Versionen der Lehrinhalte eines Kurses und deren Wiederverwendung in anderen Veranstaltungen*
+
+{{0-1}}
+********************************************************************************
+
+| Anforderung                  | txt |                                                          |
+| ---------------------------- | --- | -------------------------------------------------------- |
+| `verwahren/vervielfältigen ` | ++  | vorteilhaft wegen geringer Größe                         |
+| `verwenden`                  | +   | analoge / digitale Verteilung an Studieren unkompliziert |
+| `verarbeiten`                | ++  | verarbeitbar ohne zusätzliche Software                   |
+| `vermischen`                 | ++  | einfache Kombination von Textfragmenten per Copy&Paste   |
+| `verbreiten`                 | ++  | gut exportierbar                                         |
+
+> **Moment, ein reines Textdokument ist als OER Inhalt perfekt?**
+
+********************************************************************************
+
+{{1-2}}
+********************************************************************************
+
+> _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
+>
+> _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
+
+| Anforderung                                           | txt                           |                                                          |
+| ----------------------------------------------------- | ----------------------------- | -------------------------------------------------------- |
+| `verwahren/vervielfältigen `                          | ++                            | vorteilhaft wegen geringer Größe                         |
+| `verwenden`                                           | +                             | analoge / digitale Verteilung an Studieren unkompliziert |
+| `verarbeiten`                                         | ++                            | verarbeitbar ohne zusätzliche Software                   |
+| `vermischen`                                          | ++                            | einfache Kombination von Textfragmenten per Copy&Paste   |
+| `verbreiten`                                          | ++                            | gut exportierbar                                         |
+| <!-- Style="color:green" --> verwalten / versionieren | ++                            |                                                          |
+| <!-- Style="color:green" -->   motivieren             | <!-- Style="color:red" --> -- | keine zeitgemäßen Formate und interaktiven Inhalte       |
+
+> __Offensichtlich brauchen wir Formate, die neben den positiven Aspekten von Textdarstellungen auch das erweiterte Set von Anforderungen abdecken.__
+
+********************************************************************************
+
+### Kritik am OER-Ansatz
+
+| Ebene                               | Kernaussage                                                                             |
+| ----------------------------------- | --------------------------------------------------------------------------------------- |
+| Emotionale Einordnung               | "_Da kann ja jeder meine Arbeit für sich nutzen!_"                                      |
+|                                     | "_Da kann mich ja jeder kontrollieren!_"                                                |
+| Rechtliche Herausforderungen        | "_Ich verwende viele Grafiken, die bei deren Urheberrecht ich mir im besten Fall unsicher bin!_"                                                                                        |
+| Auffindbarkeit                      | "_Ich finde keine Inhalte, die ich in meiner Lehre gewinnbringend integrieren kann!_"   |
+| <!-- Style="color:red" --> Aufwand  | <!-- Style="color:red" --> "_Da muss man ja Informatik studiert haben!_"                |
+| <!-- Style="color:red" -->Abdeckung | <!-- Style="color:red" -->"_Da fehlen mir aber die Schnittstellen für meine Tools XY!_" |
+
+<!--
+style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;"
+-->
+```ascii
+
+      Wunsch nach                                             Wunsch nach
+  einfacher Umsetzung  -----------> Konflikt <----------- spezifischen Elementen
+                                       |                       im Material
+                                       |
+                                       v
+                              OER als Lösungsansatz
+
+```
+
+# OER Praxis
+
+> 1. Materialien müssen transformierbar sein, um eine Wiederverwendung zu ermöglichen. (_Verarbeiten/Verwenden/Verbreiten_)
+> 2. Materialien brauchen Metadaten, um auffindbar zu sein. (_Verbreiten_)
+> 3. Materialien brauchen offenkundige Versionierungen (_Verwalten_)
+
+<!--
+style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;"
+-->
+```ascii
++------------------+
+| # Digital Systems|\                                      .-----------.
+| (SoSe 2021)      +-+                              ╔══════|   LMS  X  |══════╗
+|                    |  --------------------------> ║      '-----------'      ║
+| ## Task 1          |                              ║ Digital Systems 2021    ║
+|                    |                              ║                         ║
+| + Implement ...    | --------------+              ║ import numpy as np      ║
+|                    |    Trans-     |              ║ ...                     ║
+|                    |    formation  |              ╚═════════════════════════╝
++--------------------+               v
+                                .-,(   ),-.                .-----------.
+Lizenz: ...                  .-(           )-.      ╔══════|   LMS  Y  |══════╗
+Inhalt: ...                 (    OER Cloud    )     ║      '-----------'      ║
+Autor: ...                   '-(           )-'  +-->║ Digital Systems 2021    ║
+Versionshistorie: ...           '-.(   ).-'     |   ║                         ║
+                                     |          |
+                                     +----------+          .-----------.
+                                                |   ╔══════|  Webapp   |══════╗
+                                                |   ║      '-----------'      ║
+                                                +-->║ Digital Systems 2021    ║
+                                                    ║                         ║
+
+```
+*Transformation von OER Materialien für die Verwendung in verschiedenen LMS*
 
 # Einleitung
 
