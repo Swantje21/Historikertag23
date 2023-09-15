@@ -272,3 +272,47 @@ Grafische Darstellung
 
 # Übung
 
+## Textstrukturierung
+
+Überschriften werden durch eine einfache Raute erzeugt. Die Anzahl der Rauten bestimmt die Ordnung der Überschriften. Es muss ein Leerzeichen zwischen den Rauten und dem Überschriftentext sein.
+
+Einfache Textblöcke werden unformatiert eingegeben. Sie müssen jedoch mit einer Leerzeile von anderen Blöcken getrennt sein.
+Ohne Leerzeile wird ein Satz zum Block hinzugerechnet.
+
+> Spitzklammern erzeugen einen farblich markierten Bereich, der der Hervorhebung von 
+> Textblöcken dienen kann.
+
+> "Fügt man einen abgesetzten und durch zwei Bindestriche markierten Urheber des Zitates und eine Leerzeile hinzu, wird der Textblock als Zitat hervorgehoben."
+>
+> -- Liascript Jünger 
+
+Unterüberschriften innerhalb des Blocks
+----
+
+Große Unterüberschrift innerhalb des Blocks
+====
+
+----
+
+Für eine durchgezogene Linie muss vor und nach den Bindestrichen ein Leerzeile bleiben.
+
+
+## Textformatierung
+
+_kursiv_ auch *kursiv*
+
+__fett__ auch **fett**
+
+___kursiv___ und ***fett***
+
+~durchgestrichen~
+
+~~unterstrichen~~
+
+~~~durch- & unterstrichen~~~
+
+Text normal ^hochgestellter Text^
+
+`unformatierter Code` zum Beispiel für Inline-Code `<title>Titel</title>`
+
+<!-- style="color: red" -->Es sind auch CSS Formatierungen möglich durch das Voranstellen eines HTML Kommentars mit CSS Code (wenn man den gesamten Textblock formatieren will) oder Nachstellen des Kommentars (wenn nur ein bestimmtes Wort<!-- style="color: white; border: 1px solid grey; background-color: purple; padding: 2px" --> formatiert werden soll)
