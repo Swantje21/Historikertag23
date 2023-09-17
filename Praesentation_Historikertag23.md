@@ -73,57 +73,6 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 ********************************************************************************
 
-
-### Ideales OER Material - ein Textdokument
-
-<!--
-style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;"
--->
-```ascii
-
-Kurs.txt         Version 1.0          Kurs.txt          Version 1.1
-+--------------------------+          +---------------------------+
-| Kurs  Deutsche Literatur |          | Kurs  Deutsche Literatur  |
-| Autor Peter Muster       | "Fehler" | Autoren Peter Muster      |
-|                          |------>   |         Angelika Maier    |----->
-|~~~~~~~~~~~~~~~~~~~~~~~~~~|          |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-| Ab 1756 bereiste Goethe  |---.      | Ab 1786 bereiste Goethe   |--.
-| Italien ...              |   |      | Italien ...               |  |
-                               |                                     |    Course.txt       Version 1.1.2
-                               |                                     |    +----------------------------+
-                               |                                     |    | Kurs  German Literature    |
-                               |                                     |    | Autoren Peter Muster       |
-                               |                                     .--> |         Angelika Maier     |
-                               |                                          |         Steve Gray         |
-                               |                                          |~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-                               |                                          | In 1786 Goethe traveled to |
-                               |                                          | Italy ...                  |
-                               |      Kurs.txt         Version 1.0
-                               |      +---------------------------+
-                               |      | Kurs  Goethes Welt        |
-                               |      | Autoren Peter Muster      |
-                               .-->   |         Angelika Maier    |----->
-                                      |~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-                                      | Während der italienischen |
-                                      | Reise ...                 |
-```
-*Versionen der Lehrinhalte eines Kurses und deren Wiederverwendung in anderen Veranstaltungen*
-
-{{0-1}}
-********************************************************************************
-
-| Anforderung                  | txt |                                                          |
-| ---------------------------- | --- | -------------------------------------------------------- |
-| `verwahren/vervielfältigen ` | ++  | vorteilhaft wegen geringer Größe                         |
-| `verwenden`                  | +   | analoge / digitale Verteilung an Studieren unkompliziert |
-| `verarbeiten`                | ++  | verarbeitbar ohne zusätzliche Software                   |
-| `vermischen`                 | ++  | einfache Kombination von Textfragmenten per Copy&Paste   |
-| `verbreiten`                 | ++  | gut exportierbar                                         |
-
-> **Moment, ein reines Textdokument ist als OER Inhalt perfekt?**
-
-********************************************************************************
-
 {{1-2}}
 ********************************************************************************
 
@@ -131,15 +80,6 @@ Kurs.txt         Version 1.0          Kurs.txt          Version 1.1
 >
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
 
-| Anforderung                                           | txt                           |                                                          |
-| ----------------------------------------------------- | ----------------------------- | -------------------------------------------------------- |
-| `verwahren/vervielfältigen `                          | ++                            | vorteilhaft wegen geringer Größe                         |
-| `verwenden`                                           | +                             | analoge / digitale Verteilung an Studieren unkompliziert |
-| `verarbeiten`                                         | ++                            | verarbeitbar ohne zusätzliche Software                   |
-| `vermischen`                                          | ++                            | einfache Kombination von Textfragmenten per Copy&Paste   |
-| `verbreiten`                                          | ++                            | gut exportierbar                                         |
-| <!-- Style="color:green" --> verwalten / versionieren | ++                            |                                                          |
-| <!-- Style="color:green" -->   motivieren             | <!-- Style="color:red" --> -- | keine zeitgemäßen Formate und interaktiven Inhalte       |
 
 > __Offensichtlich brauchen wir Formate, die neben den positiven Aspekten von Textdarstellungen auch das erweiterte Set von Anforderungen abdecken.__
 
