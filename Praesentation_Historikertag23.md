@@ -256,7 +256,9 @@ Text normal ^hochgestellter Text^
 <!-- style="color: red" -->Es sind auch CSS Formatierungen möglich durch das Voranstellen eines HTML Kommentars mit CSS Code (wenn man den gesamten Textblock formatieren will) oder Nachstellen des Kommentars (wenn nur ein bestimmtes Wort<!-- style="color: white; border: 1px solid grey; background-color: purple; padding: 2px" --> formatiert werden soll)
 
 
-## Weiterführende Links
+## Weiterführende Informationen zum Projekt
 > Zum Projekt: https://www.datamanagement.uni-kiel.de/de/aktivitaeten/projekte/Projekt_DH-Bausteine/eLBB4RDM-Projekt
+
+## Weitrführende Informationen zu LiaScript und OER
 > Lia: https://aizac.herokuapp.com/liascript-cheet-sheet/
 > OER: https://open-educational-resources.de
