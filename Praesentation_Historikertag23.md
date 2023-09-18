@@ -17,6 +17,9 @@ narrator: German Female
 icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 -->
+# Zum Projekt
+
+<iframe https://www.datamanagement.uni-kiel.de/de/aktivitaeten/projekte/Projekt_DH-Bausteine/modulare-bausteine-geisteswissenschaften-team" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
 # Umfrage
 
