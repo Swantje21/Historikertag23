@@ -80,11 +80,11 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 *_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
 
  {1-2}}
-********************************************************************************
 
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
+
 
 ### Kritik am OER-Ansatz
 
