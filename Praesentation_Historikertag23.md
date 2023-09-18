@@ -55,7 +55,7 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 ### Ausgangspunkt
 
-{{0-1}}
+{{0}}
 >  **Open Courseware / Open Educational Resources** ... teaching, learning and
 > research materials in any medium, digital or otherwise,that reside in the
 > **public domain** or have been released under an open license that permits
@@ -67,7 +67,7 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 > -- UNESCO 2002 Forum on the Impact of Open Courseware for Higher Education in Developing Countries [(Link)](https://unesdoc.unesco.org/ark:/48223/pf0000128515)
   
 ********************************************************************************
-{{1-2}}
+{{1-3}}
 | Anforderung                  | Bedeutung                                  |
 | ---------------------------- | ------------------------------------------ |
 | `verwahren/vervielfältigen ` | Download, Speicherung und Vervielfältigung |
