@@ -1,12 +1,14 @@
 <!--
 
-author:   Richard Diebel, Jana Fehr
+author:   Richard Diebel, Swantje Piotrowski, André Dietrich, Sebastian Zug
 
 email:    diebel@ub.uni-kiel.de
 
 version:  0.0.1
 
 language: de
+
+mode: presentation
 
 narrator: German Female
 
@@ -179,28 +181,24 @@ Eine Buchedition zu scannen und damit ins Digitale zu überführen genügt nicht
 
 ## Beispiel
 
-??[Briefedition Alfred Escher](https://www.briefedition.alfred-escher.ch/home.html "Alfred Escher Briefedition")
+<iframe src="https://www.briefedition.alfred-escher.ch/home.html" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
 ## Paradigmen digitaler Editionen
 
 > “[...] the digital medium will be the native medium of the
 >scholarly edition of the future.”[^1]
 
-<div style="text-align: justify"> Digitale Editionen folgen speziellen Paradigmen (dh. methodischen Leitvorstellungen), die stark von den technischen Rahmenbedingen abhängen in denen eine Edition entsteht. Im Eingangsbeispiel zu Karl Lachmanns Parzivaledition waren die Rahmenbedingungen eng gesteckt und auch das Produkt, welches am Ende herauskommen sollte. Ein Buch ist die Wiedergabe eines einmalig hergestellten Textes, der in Form und Länge unveränderbar ist. Es ist also mehr oder minder starr und geschlossen. Die hier vorgestellten Paradigmen können immer im Vergleich zu einer Buchedition gelesen werden, die nicht durch sie gekennzeichnet wird. </div>
+Digitale Editionen folgen speziellen Paradigmen (dh. methodischen Leitvorstellungen), die stark von den technischen Rahmenbedingen abhängen in denen eine Edition entsteht. Im Eingangsbeispiel zu Karl Lachmanns Parzivaledition waren die Rahmenbedingungen eng gesteckt und auch das Produkt, welches am Ende herauskommen sollte. Ein Buch ist die Wiedergabe eines einmalig hergestellten Textes, der in Form und Länge unveränderbar ist. Es ist also mehr oder minder starr und geschlossen. Die hier vorgestellten Paradigmen können immer im Vergleich zu einer Buchedition gelesen werden, die nicht durch sie gekennzeichnet wird.
 
+Digitale Editionen zeichnen sich grundsätzlich durch **Offenheit** aus. Durch die Verschiebung in das Digitale ist es im Vergleich zu einer Buchedition wesentlich leichter, "weitere Kontexte in eine Edition einzubeziehen"[^1]. Dies können weitere Texte sein, Metadaten, Bilder (Faksimiles) oder auch Kommentare. Die Möglichkeiten sind endlos und werden durch die technischen Rahmenbedingen kaum beschränkt, was auch zum Problem der Entgrenzung führen kann, wenn digitale Editionen zu viele Zusatzinformationen bereitstellen und so der Blick für den eigentlichen Gegenstand verloren geht. In einem hypothetischen Extrembeispiel könnte die Edition eines mittelalterlichen Textes alle Textzeugen, Übersetzungen und Kommentare einbeziehen und darüber das Lesen eines einzelnen Textzeugen erschweren. Digitale Editionen müssen daher ihren Gegenstand definieren, um sich aktiv zu begrenzen.
 
-<div style="text-align: justify"> Digitale Editionen zeichnen sich grundsätzlich durch **Offenheit** aus. Durch die Verschiebung in das Digitale ist es im Vergleich zu einer Buchedition wesentlich leichter, "weitere Kontexte in eine Edition einzubeziehen"[^1]. Dies können weitere Texte sein, Metadaten, Bilder (Faksimiles) oder auch Kommentare. Die Möglichkeiten sind endlos und werden durch die technischen Rahmenbedingen kaum beschränkt, was auch zum Problem der Entgrenzung führen kann, wenn digitale Editionen zu viele Zusatzinformationen bereitstellen und so der Blick für den eigentlichen Gegenstand verloren geht. In einem hypothetischen Extrembeispiel könnte die Edition eines mittelalterlichen Textes alle Textzeugen, Übersetzungen und Kommentare einbeziehen und darüber das Lesen eines einzelnen Textzeugen erschweren. Digitale Editionen müssen daher ihren Gegenstand definieren, um sich aktiv zu begrenzen. </div>
+Ein weiteres Paradigma digitaler Editionen ist die **Multimedialität**. In Bucheditionen war es aus ökonomischen Gründen (Bild- und Farbdruck sind aufwendiger und teurer) schwierig, Bilder einzubinden. Im Digitalen lassen sich Bilder wesentlich leichter zur Anzeige bringen, weshalb viele digitale Editionen auf das Faksimile der entsprechenden Textzeugen einbinden. Ebenso leicht lassen sich Audiodateien einbinden, die einen Text möglicherweise vorlesen, was ihn zugänglicher macht.
 
+Digitale Editionen sind leicht veränderbar. Die Arbeit an ihnen ist mehr ein **Prozess** als ein Hinarbeiten auf ein abgeschlossenes Produkt. In Bucheditionen markiert das gedruckte Buch den Endzustand aller editorischen Arbeiten. Für Änderungen muss eine weitere Auflage erstellt werden. Digitale Editionen unterliegen dieser Beschränkung nicht, sie können sehr leicht verändert werden. Dies ermöglicht es, die Ergebnisse bereits früh zu teilen und die Edition durch stetige Arbeit immer weiter zu verbessern. Auch spät erkannte Fehler können einfach korrigiert werden. Da sich die Edition dadurch stark ändern kann, kann die genaue Zitation eines bestimmten Zustands ein Problem darstellen - ähnlich der Zitation einer Website, bei der als Hilfskonstruktion das genaue Abrufdatum angegeben wird, uns in der Regel aber die Werkzeuge fehlen, diesen früheren Zustand der Seite aufzurufen.
 
-<div style="text-align: justify"> Ein weiteres Paradigma digitaler Editionen ist die **Multimedialität**. In Bucheditionen war es aus ökonomischen Gründen (Bild- und Farbdruck sind aufwendiger und teurer) schwierig, Bilder einzubinden. Im Digitalen lassen sich Bilder wesentlich leichter zur Anzeige bringen, weshalb viele digitale Editionen auf das Faksimile der entsprechenden Textzeugen einbinden. Ebenso leicht lassen sich Audiodateien einbinden, die einen Text möglicherweise vorlesen, was ihn zugänglicher macht. </div>
+Ein weiteres Paradigma digitaler Edition ist die **Modellierung** aller Textdaten. Modellierung meint hier, dass die Daten abstrahiert und in einer bestimmten Form festgehalten werden. Bei digitalen Editionen werden die Texte häufig in [TEI-XML](https://www.digitale-edition.at/o:konde.79) festgehalten. Dort werden die einzelnen Textbestandteile (Überschrift, Textblock, Strophe, Satz, Wort, Zeilenummer etc. etc.) mit Tags versehen, die den Inhalt des Textbestandteils genau bezeichnen. So sind alle Daten in einer Quelle vereint (Single-Source-Prinzip) und genau bezeichnet. Aus dieser einen Quelle lassen sich dann wiederum ganz unterschiedliche Endprodukte erzeugen. Also beispielsweise eine Edition mit oder ohne Übersetzungstext, eine ohne Übersetzung aber dafür mit Kommentaren oder eine, die alle verfügbaren Daten abbildet. Eine digitale Edition "[ist] von den Restriktionen der medialen Formgebung unabhängig" und zeigt insofern transmediales Potenzial [^2].
 
-
-<div style="text-align: justify"> Digitale Editionen sind leicht veränderbar. Die Arbeit an ihnen ist mehr ein **Prozess** als ein Hinarbeiten auf ein abgeschlossenes Produkt. In Bucheditionen markiert das gedruckte Buch den Endzustand aller editorischen Arbeiten. Für Änderungen muss eine weitere Auflage erstellt werden. Digitale Editionen unterliegen dieser Beschränkung nicht, sie können sehr leicht verändert werden. Dies ermöglicht es, die Ergebnisse bereits früh zu teilen und die Edition durch stetige Arbeit immer weiter zu verbessern. Auch spät erkannte Fehler können einfach korrigiert werden. Da sich die Edition dadurch stark ändern kann, kann die genaue Zitation eines bestimmten Zustands ein Problem darstellen - ähnlich der Zitation einer Website, bei der als Hilfskonstruktion das genaue Abrufdatum angegeben wird, uns in der Regel aber die Werkzeuge fehlen, diesen früheren Zustand der Seite aufzurufen. </div>
-
-<div style="text-align: justify"> Ein weiteres Paradigma digitaler Edition ist die **Modellierung** aller Textdaten. Modellierung meint hier, dass die Daten abstrahiert und in einer bestimmten Form festgehalten werden. Bei digitalen Editionen werden die Texte häufig in [TEI-XML](https://www.digitale-edition.at/o:konde.79) festgehalten. Dort werden die einzelnen Textbestandteile (Überschrift, Textblock, Strophe, Satz, Wort, Zeilenummer etc. etc.) mit Tags versehen, die den Inhalt des Textbestandteils genau bezeichnen. So sind alle Daten in einer Quelle vereint (Single-Source-Prinzip) und genau bezeichnet. Aus dieser einen Quelle lassen sich dann wiederum ganz unterschiedliche Endprodukte erzeugen. Also beispielsweise eine Edition mit oder ohne Übersetzungstext, eine ohne Übersetzung aber dafür mit Kommentaren oder eine, die alle verfügbaren Daten abbildet. Eine digitale Edition "[ist] von den Restriktionen der medialen Formgebung unabhängig" und zeigt insofern transmediales Potenzial [^2]. </div>
-
-
-<div style="text-align: justify"> Die **Interaktivität** lässt sich bei digitalen Editionen einfach erreichen. Da der gesamte Datenbestand vorliegt, lassen sich die Ansichten auch durch die Benutzer*innen steuern. Jeder kann so die Daten so darstellen lassen, wie sie für das jeweilige Forschungsinteresse am günstigsten sind. Ein Namensforscher könnte sich beispielsweise nur die Namen eines Textes anzeigen lassen und müsste sie nicht mühsam selbst im Text markieren. </div>
+Die **Interaktivität** lässt sich bei digitalen Editionen einfach erreichen. Da der gesamte Datenbestand vorliegt, lassen sich die Ansichten auch durch die Benutzer*innen steuern. Jeder kann so die Daten so darstellen lassen, wie sie für das jeweilige Forschungsinteresse am günstigsten sind. Ein Namensforscher könnte sich beispielsweise nur die Namen eines Textes anzeigen lassen und müsste sie nicht mühsam selbst im Text markieren.
 
 Grafische Darstellung
 ----------------
@@ -255,10 +253,16 @@ Text normal ^hochgestellter Text^
 
 <!-- style="color: red" -->Es sind auch CSS Formatierungen möglich durch das Voranstellen eines HTML Kommentars mit CSS Code (wenn man den gesamten Textblock formatieren will) oder Nachstellen des Kommentars (wenn nur ein bestimmtes Wort<!-- style="color: white; border: 1px solid grey; background-color: purple; padding: 2px" --> formatiert werden soll)
 
+# Links
 
 ## Weiterführende Informationen zum Projekt
-> Zum Projekt: https://www.datamanagement.uni-kiel.de/de/aktivitaeten/projekte/Projekt_DH-Bausteine/eLBB4RDM-Projekt
+> **Zum Projekt:** https://www.datamanagement.uni-kiel.de/de/aktivitaeten/projekte/Projekt_DH-Bausteine/eLBB4RDM-Projekt
 
-## Weitrführende Informationen zu LiaScript und OER
-> Lia: https://aizac.herokuapp.com/liascript-cheet-sheet/
-> OER: https://open-educational-resources.de
+## Weiterführende Informationen zu LiaScript und OER
+> **LiaScript:** https://liascript.github.io/
+
+> **LiaScript Cheat Sheet:** https://aizac.herokuapp.com/liascript-cheet-sheet/
+
+> **Liascript Live Editor:** https://liascript.github.io/LiveEditor
+
+> **OER:** https://open-educational-resources.de
