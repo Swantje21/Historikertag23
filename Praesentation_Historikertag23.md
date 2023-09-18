@@ -87,13 +87,13 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 ### Kritik am OER-Ansatz
 
+{{0-1}}
+
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
 
-********************************************************************************
-
-{{0-1}}
+{{1-2}}
 
 | Ebene                               | Kernaussage                                                                             |
 | ----------------------------------- | --------------------------------------------------------------------------------------- |
@@ -123,8 +123,7 @@ style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-
 > 1. Materialien müssen transformierbar sein, um eine Wiederverwendung zu ermöglichen. (_Verarbeiten/Verwenden/Verbreiten_)
 > 2. Materialien brauchen Metadaten, um auffindbar zu sein. (_Verbreiten_)
 > 3. Materialien brauchen offenkundige Versionierungen (_Verwalten_)
-
-> __Offensichtlich brauchen wir Formate, die neben den positiven Aspekten von Textdarstellungen auch das erweiterte Set von Anforderungen abdecken.__
+__Offensichtlich brauchen wir Formate, die neben den positiven Aspekten von Textdarstellungen auch das erweiterte Set von Anforderungen abdecken.__
 
 
 ## Einleitung
