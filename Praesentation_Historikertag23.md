@@ -82,6 +82,8 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 
 {{2-3}}
+__Kritik an der 5V Definiotion__
+
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
