@@ -80,7 +80,6 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 *_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
 
 
-
 {{2-3}}
 __Kritik an der 5V Definiotion__
 
