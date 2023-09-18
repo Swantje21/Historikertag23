@@ -85,8 +85,11 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 ********************************************************************************
 
-{{1-2}}
+
 ********************************************************************************
+
+
+### Kritik am OER-Ansatz
 
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
@@ -95,9 +98,7 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 > __Offensichtlich brauchen wir Formate, die neben den positiven Aspekten von Textdarstellungen auch das erweiterte Set von Anforderungen abdecken.__
 
-********************************************************************************
-
-### Kritik am OER-Ansatz
+{{1-2}}
 
 | Ebene                               | Kernaussage                                                                             |
 | ----------------------------------- | --------------------------------------------------------------------------------------- |
