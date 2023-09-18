@@ -79,21 +79,14 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 *_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
 
-> _OER können der Auslöser für Innovation und neue Lenrformen des 21. Jahrhunderts sein._
->
-> -- _Handreichung OER - Der Einstieg in den Umgang mit Open Educational Ressources_, Bericht des Projektes OERsax, 2018
-
+ {1-2}}
 ********************************************************************************
-
-### Kritik am OER-Ansatz
-
-{{0-1}}
 
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
 
-{{1-2}}
+### Kritik am OER-Ansatz
 
 | Ebene                               | Kernaussage                                                                             |
 | ----------------------------------- | --------------------------------------------------------------------------------------- |
