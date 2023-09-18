@@ -55,6 +55,8 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 ### Ausgangspunkt
 
+ {{0-1}}
+  
 >  **Open Courseware / Open Educational Resources** ... teaching, learning and
 > research materials in any medium, digital or otherwise,that reside in the
 > **public domain** or have been released under an open license that permits
@@ -64,9 +66,9 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 > and respects the authorship of the work
 >
 > -- UNESCO 2002 Forum on the Impact of Open Courseware for Higher Education in Developing Countries [(Link)](https://unesdoc.unesco.org/ark:/48223/pf0000128515)
-
-           {{0-1}}
+  
 ********************************************************************************
+{{1-2}}
 
 | Anforderung                  | Bedeutung                                  |
 | ---------------------------- | ------------------------------------------ |
@@ -79,7 +81,8 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 *_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
 
- {1-2}}
+********************************************************************************
+ {{2-3}}
 
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
