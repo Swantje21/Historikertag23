@@ -128,34 +128,6 @@ style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-
 > 2. Materialien brauchen Metadaten, um auffindbar zu sein. (_Verbreiten_)
 > 3. Materialien brauchen offenkundige Versionierungen (_Verwalten_)
 
-<!--
-style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-right: auto;"
--->
-```ascii
-+------------------+
-| # Digital Systems|\                                      .-----------.
-| (SoSe 2021)      +-+                              ╔══════|   LMS  X  |══════╗
-|                    |  --------------------------> ║      '-----------'      ║
-| ## Task 1          |                              ║ Digital Systems 2021    ║
-|                    |                              ║                         ║
-| + Implement ...    | --------------+              ║ import numpy as np      ║
-|                    |    Trans-     |              ║ ...                     ║
-|                    |    formation  |              ╚═════════════════════════╝
-+--------------------+               v
-                                .-,(   ),-.                .-----------.
-Lizenz: ...                  .-(           )-.      ╔══════|   LMS  Y  |══════╗
-Inhalt: ...                 (    OER Cloud    )     ║      '-----------'      ║
-Autor: ...                   '-(           )-'  +-->║ Digital Systems 2021    ║
-Versionshistorie: ...           '-.(   ).-'     |   ║                         ║
-                                     |          |
-                                     +----------+          .-----------.
-                                                |   ╔══════|  Webapp   |══════╗
-                                                |   ║      '-----------'      ║
-                                                +-->║ Digital Systems 2021    ║
-                                                    ║                         ║
-
-```
-*Transformation von OER Materialien für die Verwendung in verschiedenen LMS*
 
 ## Einleitung
 
