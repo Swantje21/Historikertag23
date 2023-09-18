@@ -24,10 +24,10 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 # Umfrage
 
- {{0}}
+ {{0-1}}
 [qr-code](https://LiaScript.github.io
 
- {{0-1}}
+ {{1-2}}
 <iframe src="https://www.oncoo.de/t/k417" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
 # Einleitung OER
