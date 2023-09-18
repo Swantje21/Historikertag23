@@ -55,8 +55,7 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
 ### Ausgangspunkt
 
- {{0-1}}
-  
+{{0-1}}
 >  **Open Courseware / Open Educational Resources** ... teaching, learning and
 > research materials in any medium, digital or otherwise,that reside in the
 > **public domain** or have been released under an open license that permits
@@ -69,7 +68,6 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
   
 ********************************************************************************
 {{1-2}}
-
 | Anforderung                  | Bedeutung                                  |
 | ---------------------------- | ------------------------------------------ |
 | `verwahren/vervielfältigen ` | Download, Speicherung und Vervielfältigung |
@@ -82,8 +80,8 @@ icon:     /img/cau-norm-de-lilagrey-rgb.svg
 *_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
 
 ********************************************************************************
- {{2-3}}
 
+{{2-3}}
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
