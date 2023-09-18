@@ -10,6 +10,8 @@ language: de
 
 mode: presentation
 
+dark: false
+
 narrator: German Female
 
 icon:     /img/cau-norm-de-lilagrey-rgb.svg
@@ -251,7 +253,34 @@ Text normal ^hochgestellter Text^
 
 `unformatierter Code` zum Beispiel für Inline-Code `<title>Titel</title>`
 
-<!-- style="color: red" -->Es sind auch CSS Formatierungen möglich durch das Voranstellen eines HTML Kommentars mit CSS Code (wenn man den gesamten Textblock formatieren will) oder Nachstellen des Kommentars (wenn nur ein bestimmtes Wort<!-- style="color: white; border: 1px solid grey; background-color: purple; padding: 2px" --> formatiert werden soll)
+
+## Animationen
+
+    {{0}}
+Wie in Powerpoint können Textblöcke der Reihe nach erscheinen. 
+
+    {{1-3}}
+Dieser Block kommt nach dem ersten Klick. Dies markiert man mit zwei geschweiften Klammern `{{in(-out)}}`, die in der Mitte durch Zahlen angeben, wann der Block erscheint und (optional) wann er wieder verschwindet.
+
+    {{2-3}}
+Dieser Block erscheint ab Schritt 2 und verschwindet bei 3, markiert durch `{{2-3}}`
+
+    {{3}}
+Um einen Block ab einem Schritt stehen zu lassen gibt man nur den entsprechenden Schritt als einzelne Zahl an. Dieser hier erscheint bei 3 und bleibt auch bei 4.
+
+    {{3-4}}
+Dieser Block kommt bei drei und geht bei 4, markiert durch `{{3-4}}`
+
+    {{4}}
+Dieser Block erscheint bei 4.
+
+## Quizze
+
+
+
+Wie heißt die hier vorangestellte Sprache?
+
+[[LiaScript]]
 
 # Links
 
