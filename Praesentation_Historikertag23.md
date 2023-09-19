@@ -8,11 +8,7 @@ version:  0.0.1
 
 language: de
 
-mode: presentation
-
 dark: false
-
-narrator: German Female
 
 icon:     /img/cau-norm-de-lilagrey-rgb.svg
 
