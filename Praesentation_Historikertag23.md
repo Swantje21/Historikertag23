@@ -119,72 +119,111 @@ style="width: 100%; max-width: 860px; display: block; margin-left: auto; margin-
 
 # OER Praxis
 
+{{1}}
 > 1. Materialien müssen transformierbar sein, um eine Wiederverwendung zu ermöglichen. (_Verarbeiten/Verwenden/Verbreiten_)
 > 2. Materialien brauchen Metadaten, um auffindbar zu sein. (_Verbreiten_)
 > 3. Materialien brauchen offenkundige Versionierungen (_Verwalten_)
+
+{{2}}
 __Offensichtlich brauchen wir Formate, die neben den positiven Aspekten von Textdarstellungen auch das erweiterte Set von Anforderungen abdecken.__
 
+## LiaScript
 
-## Einleitung
+{{1}}
+LiaScript ist eine freie Erweiterung der Auszeichnungssprache [Markdown](https://de.wikipedia.org/wiki/Markdown). Mit LiaScript lassen sich interaktive und ansprechende Lehr- und Lehrinhalte erstellen, die ohne die Verwendung eines Servers im Netz verbreitet werden können.
 
-<div style="text-align: justify"> Im Sommer 1824 unternahm Karl Lachmann eine Bibliotheksreise zu den Standorten wichtiger Parzivalhandschriften. Er hatte dafür eine Beurlaubung von seiner Funktion als außerordentlicher Professor an der Universität Königsberg erwirkt. Sein Ziel war es, möglichst viele Parzivalhandschriften einzusehen. 
-Als Arbeitshilfe hatte er den Abdruck des Parzival D (Sankt Gallen, Cod. 857) in der Ausgabe von Christoph Heinrich Myller von 1784 mit im Gepäck: </div>
+{{2}}
+********
+LiaScript erfüllt die oben genannten Anforderungen:
 
+> 1. Materialien müssen transformierbar sein, um eine Wiederverwendung zu ermöglichen. (_Verarbeiten/Verwenden/Verbreiten_) --> LiaScript kann in andere Formate wie PDF, Docx, HTML, SCORM u.v.m konvertiert werden
+> 2. Materialien brauchen Metadaten, um auffindbar zu sein. (_Verbreiten_) --> LiaScript kann einen Metadatenblock am Anfang jedes Dokuments enthalten, der es auffindbar macht
+> 3. Materialien brauchen offenkundige Versionierungen (_Verwalten_) --> LiaScript ist als einfaches Textformat über Git lückenlos Versionierbar
+********
+
+{{3}}
+********
+Und weitere:
+
+> 1. Einfache Syntax (_Verarbeiten/Vermischen/Verbreiten_)
+> 2. Serverloses Hosten (_Verbreiten_) 
+> 3. Multimedialität und Interaktivität durch Medien und interaktive Elemente  (_Education_)
+
+********
+
+## Beispiel Digitale Edition
+
+### Einleitung
+
+{{1-2}}
 ![Lachmann Parzival Handschrift](img/Lachmann.jpg "Bildquelle: https://orka.bibliothek.uni-kassel.de/viewer/image/1495451339399/7/")
+Im Sommer 1824 unternahm Karl Lachmann eine Bibliotheksreise zu den Standorten wichtiger Parzivalhandschriften. Er hatte dafür eine Beurlaubung von seiner Funktion als außerordentlicher Professor an der Universität Königsberg erwirkt. Sein Ziel war es, möglichst viele Parzivalhandschriften einzusehen. 
+Als Arbeitshilfe hatte er den Abdruck des Parzival D (Sankt Gallen, Cod. 857) in der Ausgabe von Christoph Heinrich Myller von 1784 mit im Gepäck:
 
+{{2}}
+***********
 In Sankt Gallen trug Lachmann die Abweichungen der Myllerschen Ausgabe vom Original in rot in den Druck ein. Dann reiste er weiter nach München und ergänzte die Lesarten der Handschrift G (München, Cgm 19) in schwarzer Tinte.
 
 ![Lachmann Parzival Handschrift](img/Lachmann_detail.jpg "Das Detailbild zeigt die rote Eintragung 'puto nimer' anstelle von 'niemer' im Druck. Lachmann meint (lat. puto = ich meine), dass in der Handschrift 'nimer' anstelle von 'niemer' steht. Das gleiche macht er in schwarzer Tinte für Lesarten der Handschrift D, wie etwa bei 'Beide', welches er in D als 'Beidiu' liest.")
 
-<div style="text-align: justify"> Das Beispiel zeigt, wie die Art zu Edieren maßgeblich durch die technischen Vorrausetzungen mitbestimmt wird.[^1] Lachmann hatte nur ein einziges Mal in seinem Leben Zugang zu den Originalhandschriften, da die Reisen von Königsberg nach Sankt Gallen, Heidelberg, München und an weitere Orte anstrengend und kostspielig waren. Das Notieren der Lesarten erfolgte mühsam per Hand in einer nicht fehlerfreien alten Druckausgabe der Sankt Galler Handschrift. Unter den gegebenen Umständen ist es verständlich, dass Lachmann aus der ihm zugänglichen Überlieferung einen einzigen "Original"-Text rekonstruierte und die Lesarten der Handschriften nur in einem Apparat zugänglich machte. </div>
+Das Beispiel zeigt, wie die Art zu Edieren maßgeblich durch die technischen Vorrausetzungen mitbestimmt wird.[^1] Lachmann hatte nur ein einziges Mal in seinem Leben Zugang zu den Originalhandschriften, da die Reisen von Königsberg nach Sankt Gallen, Heidelberg, München und an weitere Orte anstrengend und kostspielig waren. Das Notieren der Lesarten erfolgte mühsam per Hand in einer nicht fehlerfreien alten Druckausgabe der Sankt Galler Handschrift. Unter den gegebenen Umständen ist es verständlich, dass Lachmann aus der ihm zugänglichen Überlieferung einen einzigen "Original"-Text rekonstruierte und die Lesarten der Handschriften nur in einem Apparat zugänglich machte.
 
-
-<div style="text-align: justify">Heute haben sich die technischen Vorraussetzungen geändert. Handschriften können digital eingesehen werden, indem man auf die jeweiligen Webseiten der Bibliotheken geht. Texte können digital festgehalten werden und müssen nicht mehr per Hand bei Kerzenlicht geschrieben werden.</div>
+Heute haben sich die technischen Vorraussetzungen geändert. Handschriften können digital eingesehen werden, indem man auf die jeweiligen Webseiten der Bibliotheken geht. Texte können digital festgehalten werden und müssen nicht mehr per Hand bei Kerzenlicht geschrieben werden.
 
 [^1]: Vgl. Gabriel Viehauser: Mittelalterliche Texte als Modellierungsaufgabe. Digitale Zugänge zur mittelhochdeutschen Literatur. In: Martin Fischer (Hg.):Digitale Methoden und Objekte in Forschung und Vermittlung der mediävistischen Disziplinen. Akten der Tagung Bamberg, 08.-10. November 2018. Bamberg 2020. S. 18.
 
-## Definition
+*************
+
+### Definition
 
 Die digitale Edition definiert sich nach Patrick Sahle folgendermaßen:
 
 > Eine digitale Edition ist dadurch bestimmt, dass sie die allgemeinen Anforderungen an eine wissenschaftliche Edition durch die Berücksichtigung der gegenwärtigen technischen Möglichkeiten und ihrer methodischen Implikationen erfüllt. Sie folgt einem „digitalen Paradigma“.[^1]
+>
+>-- Patrick Sahle
 
-<div style="text-align: justify"> Im Prinzip ist eine digitale Edition eine Edition, die wie eine Buchedition den wissenschaftlichen Ansprüchen gerecht wird. Durch die modernen technischen Möglichkeiten lassen sich die Anforderungen an eine wissenschaftliche Edition jedoch kaum noch ohne den Einsatz dieser Möglichkeiten abdecken. Die digitalen Methoden werden also benötigt, um dem wissenschaftlichen Anspruch gerecht zu werden.</div>
-
+Im Prinzip ist eine digitale Edition eine Edition, die wie eine Buchedition den wissenschaftlichen Ansprüchen gerecht wird. Durch die modernen technischen Möglichkeiten lassen sich die Anforderungen an eine wissenschaftliche Edition jedoch kaum noch ohne den Einsatz dieser Möglichkeiten abdecken. Die digitalen Methoden werden also benötigt, um dem wissenschaftlichen Anspruch gerecht zu werden.
 
 Eine Buchedition zu scannen und damit ins Digitale zu überführen genügt nicht. Eine digitalisierte Edition ist keine digitale Edition.
 
 [^1]: Patrick Sahle: Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Teil 2: Befunde, Theorie und Methodik. Norderstedt 2013, S. 148.
 
 
-## Beispiel
+### Digitale Edition
 
 <iframe src="https://www.briefedition.alfred-escher.ch/home.html" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
 
-## Paradigmen digitaler Editionen
+### Paradigmen digitaler Editionen
 
+{{0-1}}
+*****************
 > “[...] the digital medium will be the native medium of the
 >scholarly edition of the future.”[^1]
 
 Digitale Editionen folgen speziellen Paradigmen (dh. methodischen Leitvorstellungen), die stark von den technischen Rahmenbedingen abhängen in denen eine Edition entsteht. Im Eingangsbeispiel zu Karl Lachmanns Parzivaledition waren die Rahmenbedingungen eng gesteckt und auch das Produkt, welches am Ende herauskommen sollte. Ein Buch ist die Wiedergabe eines einmalig hergestellten Textes, der in Form und Länge unveränderbar ist. Es ist also mehr oder minder starr und geschlossen. Die hier vorgestellten Paradigmen können immer im Vergleich zu einer Buchedition gelesen werden, die nicht durch sie gekennzeichnet wird.
 
+***************
+
+{{1-2}}
+**********
 Digitale Editionen zeichnen sich grundsätzlich durch **Offenheit** aus. Durch die Verschiebung in das Digitale ist es im Vergleich zu einer Buchedition wesentlich leichter, "weitere Kontexte in eine Edition einzubeziehen"[^1]. Dies können weitere Texte sein, Metadaten, Bilder (Faksimiles) oder auch Kommentare. Die Möglichkeiten sind endlos und werden durch die technischen Rahmenbedingen kaum beschränkt, was auch zum Problem der Entgrenzung führen kann, wenn digitale Editionen zu viele Zusatzinformationen bereitstellen und so der Blick für den eigentlichen Gegenstand verloren geht. In einem hypothetischen Extrembeispiel könnte die Edition eines mittelalterlichen Textes alle Textzeugen, Übersetzungen und Kommentare einbeziehen und darüber das Lesen eines einzelnen Textzeugen erschweren. Digitale Editionen müssen daher ihren Gegenstand definieren, um sich aktiv zu begrenzen.
 
+[^1]: Jannidis, Fotis, Hubertus Kohle, Malte Rehbein: Digital Humanities. Eine Einführung. Stuttgart 2017.
+
+********
+
+{{2-3}}
 Ein weiteres Paradigma digitaler Editionen ist die **Multimedialität**. In Bucheditionen war es aus ökonomischen Gründen (Bild- und Farbdruck sind aufwendiger und teurer) schwierig, Bilder einzubinden. Im Digitalen lassen sich Bilder wesentlich leichter zur Anzeige bringen, weshalb viele digitale Editionen auf das Faksimile der entsprechenden Textzeugen einbinden. Ebenso leicht lassen sich Audiodateien einbinden, die einen Text möglicherweise vorlesen, was ihn zugänglicher macht.
 
+{{3-4}}
 Digitale Editionen sind leicht veränderbar. Die Arbeit an ihnen ist mehr ein **Prozess** als ein Hinarbeiten auf ein abgeschlossenes Produkt. In Bucheditionen markiert das gedruckte Buch den Endzustand aller editorischen Arbeiten. Für Änderungen muss eine weitere Auflage erstellt werden. Digitale Editionen unterliegen dieser Beschränkung nicht, sie können sehr leicht verändert werden. Dies ermöglicht es, die Ergebnisse bereits früh zu teilen und die Edition durch stetige Arbeit immer weiter zu verbessern. Auch spät erkannte Fehler können einfach korrigiert werden. Da sich die Edition dadurch stark ändern kann, kann die genaue Zitation eines bestimmten Zustands ein Problem darstellen - ähnlich der Zitation einer Website, bei der als Hilfskonstruktion das genaue Abrufdatum angegeben wird, uns in der Regel aber die Werkzeuge fehlen, diesen früheren Zustand der Seite aufzurufen.
 
+{{4-5}}
 Ein weiteres Paradigma digitaler Edition ist die **Modellierung** aller Textdaten. Modellierung meint hier, dass die Daten abstrahiert und in einer bestimmten Form festgehalten werden. Bei digitalen Editionen werden die Texte häufig in [TEI-XML](https://www.digitale-edition.at/o:konde.79) festgehalten. Dort werden die einzelnen Textbestandteile (Überschrift, Textblock, Strophe, Satz, Wort, Zeilenummer etc. etc.) mit Tags versehen, die den Inhalt des Textbestandteils genau bezeichnen. So sind alle Daten in einer Quelle vereint (Single-Source-Prinzip) und genau bezeichnet. Aus dieser einen Quelle lassen sich dann wiederum ganz unterschiedliche Endprodukte erzeugen. Also beispielsweise eine Edition mit oder ohne Übersetzungstext, eine ohne Übersetzung aber dafür mit Kommentaren oder eine, die alle verfügbaren Daten abbildet. Eine digitale Edition "[ist] von den Restriktionen der medialen Formgebung unabhängig" und zeigt insofern transmediales Potenzial [^2].
 
-Die **Interaktivität** lässt sich bei digitalen Editionen einfach erreichen. Da der gesamte Datenbestand vorliegt, lassen sich die Ansichten auch durch die Benutzer*innen steuern. Jeder kann so die Daten so darstellen lassen, wie sie für das jeweilige Forschungsinteresse am günstigsten sind. Ein Namensforscher könnte sich beispielsweise nur die Namen eines Textes anzeigen lassen und müsste sie nicht mühsam selbst im Text markieren.
-
-Grafische Darstellung
-----------------
-
-![Grafik](img/Grafik_Paradigmen.jpg "Paradigmen digitaler Editionen")
-
-[^1]: Jannidis, Fotis, Hubertus Kohle, Malte Rehbein: Digital Humanities. Eine Einführung. Stuttgart 2017.
 [^2]: Patrick Sahle: Digitale Editionsformen. Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Teil 2: Befunde, Theorie und Methodik. Norderstedt 2013, S. 163.
+{{5-6}}
+Die **Interaktivität** lässt sich bei digitalen Editionen einfach erreichen. Da der gesamte Datenbestand vorliegt, lassen sich die Ansichten auch durch die Benutzer*innen steuern. Jeder kann so die Daten so darstellen lassen, wie sie für das jeweilige Forschungsinteresse am günstigsten sind. Ein Namensforscher könnte sich beispielsweise nur die Namen eines Textes anzeigen lassen und müsste sie nicht mühsam selbst im Text markieren.
 
 # Übung
 
