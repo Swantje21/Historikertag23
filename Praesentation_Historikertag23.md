@@ -303,9 +303,37 @@ Projektinterne Bilder:
 
 ### Audio
 
+* Syntax: `?[ein Pferd](https://www.w3schools.com/html/horse.mp3 "höre ein Pferd wiehern")`
+* Example:
+
+  ?[ein Pferd](https://www.w3schools.com/html/horse.mp3 "höre ein Pferd wiehern")
+
 ### Video
 
+**Movie-notation: `!?[alt-text](movie-url)`**
+
+- YouTube: `!?[The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)`
+
+  !?[The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)
+
+- relative path: `!?[Something about math](vid/math.mp4)`
+
+  !?[Something about math](vid/math.mp4)
+
+- > # List of supported Video Platforms
+  >
+  > * [DailyMotion](https://www.dailymotion.com)
+  > * [PeerTube](https://peertube.tv)
+  > * [TeacherTube](https://TeacherTube.com)
+  > * [Video TU-Freiberg](https://video.tu-freiberg.de)
+  > * [Vimeo](https://Vimeo.com)
+  > * [YouTube](https://YouTube.com)
+
 ### Und mehr
+
+[SketchFab](https://sketchfab.com): `??[Die Stadt Düren 1634](https://sketchfab.com/3d-models/dueren1634-citymodel-c-f1f1c5c63a484303b953621343c75075)`
+
+  ??[Dueren 1634](https://sketchfab.com/3d-models/dueren1634-citymodel-c-f1f1c5c63a484303b953621343c75075)
 
 ## Animationen
 
