@@ -56,7 +56,7 @@ https://www.oncoo.de/k417
 
 ### Ausgangspunkt
 
-{{0}}
+{{0-1}}
 >  **Open Courseware / Open Educational Resources** ... teaching, learning and
 > research materials in any medium, digital or otherwise,that reside in the
 > **public domain** or have been released under an open license that permits
@@ -68,7 +68,7 @@ https://www.oncoo.de/k417
 > -- UNESCO 2002 Forum on the Impact of Open Courseware for Higher Education in Developing Countries [(Link)](https://unesdoc.unesco.org/ark:/48223/pf0000128515)
   
 
-{{1-3}}
+{{1-2}}
 | Anforderung                  | Bedeutung                                  |
 | ---------------------------- | ------------------------------------------ |
 | `verwahren/vervielfältigen ` | Download, Speicherung und Vervielfältigung |
@@ -77,17 +77,20 @@ https://www.oncoo.de/k417
 | `vermischen`                 | Kombination und Extraktion                 |
 | `verbreiten`                 | (digitale) Publikation                     |
 
-
+{{1-2}}
 *_5 V-Freiheiten für Offenheit_ von Jöran Muuß-Merholz und Jörg Lohrer für [open-educational-ressources](https://open-educational-resources.de) - Transferstelle für OER*
 
 
 {{2-3}}
+*********************
+
 __Kritik an der 5V Definiotion__
 
 > _1. Die 5V Definition fokussiert das Open in OER lässt aber das Education beiseite._
 >
 > _2. Die Verwaltung und Auffindbarkeit von OER Inhalten ist dadurch nicht erfasst._
 
+**********************
 
 ### Kritik am OER-Ansatz
 
