@@ -268,6 +268,44 @@ Text normal ^hochgestellter Text^
 
 `unformatierter Code` zum Beispiel für Inline-Code `<title>Titel</title>`
 
+## Multimedia
+
+### Bilder
+
+{{1-2}}
+***************************
+
+Verweis auf Externe Bilder:
+
+``` html
+![alt](https://...)
+![alt](https://... "titel")
+```
+
+Beispiel:
+![Annunciation of the brith of Christ](https://upload.wikimedia.org/wikipedia/commons/5/51/Leonardo_da_Vinci_Annunciation.jpg)
+
+
+
+***********************
+
+{{2}}
+************************
+
+Projektinterne Bilder:
+
+``` html
+![alt](/pic/image.jpg)
+![alt](/pic/image.jpg "titel")
+```
+
+**********************
+
+### Audio
+
+### Video
+
+### Und mehr
 
 ## Animationen
 
