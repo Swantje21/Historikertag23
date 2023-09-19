@@ -329,8 +329,6 @@ Dieser Block erscheint bei 4.
 
 ## Quizze
 
-
-
 Wie heißt die hier vorangestellte Sprache?
 
 [[LiaScript]]
