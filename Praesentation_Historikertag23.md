@@ -357,14 +357,47 @@ Dieser Block erscheint bei 4.
 
 ## Quizze
 
+### Textquiz
+
 Wie heißt die hier vorangestellte Sprache?
 
 [[LiaScript]]
 
-# Links
+### Single Choice
 
-## Weiterführende Informationen zum Projekt
-> **Zum Projekt:** https://www.datamanagement.uni-kiel.de/de/aktivitaeten/projekte/Projekt_DH-Bausteine/eLBB4RDM-Projekt
+Anzahl und Ordnung der Optionen ist beliebig.
+
+[( )] Diese Wahl ist falsch.
+[(X)] <-- __Richtig__
+[( )] Auch falsch.
+
+### Multiple Choice
+
+Alle markierten Zeilen müssen ausgewählt werden:
+
+[[ ]] nicht ausgewählt
+[[X]] <-- __Richtig__
+[[ ]] auch falsch.
+[[X]] __auch Richtig__
+
+### Matrix
+
+Kombination von Single- und Multiple-Choice Quizzen:
+
+[[Head 1] [_Head 2_] [**Head 3**]]
+[  [X]        [ ]         [X]    ]  Weitere
+[  ( )        (X)         ( )    ]  Zeilen...
+
+### Hilfen
+
+Hilfen können mit `[[?]]` an alle Quizze angehängt werden:
+
+[[LiaScript]]
+[[?]] Tipp 1
+[[?]] Tipp 2
+[[?]] ...
+
+# Links
 
 ## Weiterführende Informationen zu LiaScript und OER
 > **LiaScript:** https://liascript.github.io/
