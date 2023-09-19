@@ -407,3 +407,10 @@ Hilfen können mit `[[?]]` an alle Quizze angehängt werden:
 > **Liascript Live Editor:** https://liascript.github.io/LiveEditor
 
 > **OER:** https://open-educational-resources.de
+
+## Weiterführende Informationen zum Projekt
+> **Zum Projekt:** https://www.datamanagement.uni-kiel.de/de/aktivitaeten/projekte/Projekt_DH-Bausteine/eLBB4RDM-Projekt
+
+# Haben Sie Fragen?
+
+
