@@ -227,6 +227,14 @@ Die **Interaktivität** lässt sich bei digitalen Editionen einfach erreichen. D
 
 # Übung
 
+## Einrichtung
+
+Sie benötigen einen Laptop/Tablet und den Liveeditor von Liascript:
+
+https://liascript.github.io oder einfach LiaScript im Browser suchen
+
+<iframe src="https://liascript.github.io" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
 ## Textstrukturierung
 
 Überschriften werden durch eine einfache Raute erzeugt. Die Anzahl der Rauten bestimmt die Ordnung der Überschriften. Es muss ein Leerzeichen zwischen den Rauten und dem Überschriftentext sein.
