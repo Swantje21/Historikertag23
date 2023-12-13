@@ -337,6 +337,16 @@ Projektinterne Bilder:
   > * [Vimeo](https://Vimeo.com)
   > * [YouTube](https://YouTube.com)
 
+### Code
+
+``` js
+let text = 'Hello, World';
+text;
+```
+<script>
+    @input
+</script>
+
 ### Und mehr
 
 [SketchFab](https://sketchfab.com): `??[Die Stadt Düren 1634](https://sketchfab.com/3d-models/dueren1634-citymodel-c-f1f1c5c63a484303b953621343c75075)`
